@@ -1,11 +1,13 @@
 import React from 'react'
-
+import Header from "./components/Header"
+import Home from "./components/Home"
 const page = () => {
   return (
     <div>
-      <p className='h-[100px] w-full bg-red-200 text-white'>This is the homepage of the tesla clone.</p>
+      {/* <Header /> */}
+      <Home /> 
     </div>
   )
 }
 
-export default page
+export default page 
