@@ -8,11 +8,18 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      animation: {
+        animateDown: "animateDown 1.5s infinite",
+      },
+      keyframes: {
+        animateDown: {
+          "0%": { transform: "translateY(0)" },
+          "40%": { transform: "translateY(5px)" },
+          "60%": { transform: "translateY(3px)" },
+        },
       },
     },
   },
+
   plugins: [],
 } satisfies Config;
