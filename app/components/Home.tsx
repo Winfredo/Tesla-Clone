@@ -1,9 +1,11 @@
 import React from "react";
 import Section from "./Section";
+import Header from "./Header";
 
 const Home = () => {
   return (
     <div className="h-[100vh] ">
+        <Header />
       <Section
         name="Model S"
         description="Order Online for Touchless Delivery."
