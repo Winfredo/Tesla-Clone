@@ -6,12 +6,12 @@ const Home = () => {
     <div className="h-[100vh] ">
       <Section
         name="Model S"
-        description="Order Online for Touchless Delivery"
+        description="Order Online for Touchless Delivery."
         leftbtn="Custom Order"
         rightbtn="Existing Inventory"
         image="model-s.jpg"
       />
-       <Section
+      <Section
         name="Model X"
         description="Luxury SUV with falcon-wing doors and impressive range."
         leftbtn="Custom Order"
@@ -26,13 +26,27 @@ const Home = () => {
         image="model-y.jpg"
       />
       <Section
-          name="Model 3"
-          description="All-electric sedan delivering performance, style, and innovation."
-          leftbtn="Custom Order"
-          rightbtn="Existing Inventory"
-          image="model-3.jpg"
+        name="Model 3"
+        description="All-electric sedan delivering performance, style, and innovation."
+        leftbtn="Custom Order"
+        rightbtn="Existing Inventory"
+        image="model-3.jpg"
       />
-         
+      <Section
+        name="Lowest Cost Solar Panels in America."
+        description="Money-back guarantee"
+        leftbtn="Order Now"
+        rightbtn="Learn More"
+        image="solar-panel.jpg"
+      />
+      <Section
+        name="Solar for New Roofs "
+        description="Solar Roof Costs Less Than a New Roof Plus Solar Panels."
+        leftbtn="Order Now"
+        rightbtn="Learn More"
+        image="solar-roof.jpg"
+      />
+      <Section name="Accessories" leftbtn="Shop Now" image="accessories.jpg" />
     </div>
   );
 };
