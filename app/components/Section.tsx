@@ -1,5 +1,4 @@
 import React from "react";
-
 interface SectionProps {
   name: string;
   description?: string;
