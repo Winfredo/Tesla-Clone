@@ -8,6 +8,7 @@ const Home = () => {
         <Header />
       <Section
         name="Model S"
+        id="model-s"
         description="Order Online for Touchless Delivery."
         leftbtn="Custom Order"
         rightbtn="Existing Inventory"
@@ -15,6 +16,7 @@ const Home = () => {
       />
       <Section
         name="Model X"
+        id="model-x"
         description="Luxury SUV with falcon-wing doors and impressive range."
         leftbtn="Custom Order"
         rightbtn="Existing Inventory"
@@ -22,6 +24,7 @@ const Home = () => {
       />
       <Section
         name="Model Y"
+        id="model-y"
         description="Compact electric sedan with exceptional performance and efficiency."
         leftbtn="Custom Order"
         rightbtn="Existing Inventory"
@@ -29,6 +32,7 @@ const Home = () => {
       />
       <Section
         name="Model 3"
+        id="model-three"
         description="All-electric sedan delivering performance, style, and innovation."
         leftbtn="Custom Order"
         rightbtn="Existing Inventory"

@@ -16,16 +16,16 @@ const Header = () => {
 
       <div className="hidden md:flex gap-10 uppercase font-bold">
         <p>
-          <a href="#">Model 3</a>
+          <a href="#model-s">Model S</a>
         </p>
         <p>
-          <a href="#">Model S</a>
+          <a href="#model-x">Model X</a>
         </p>
         <p>
-          <a href="#">Model X</a>
+          <a href="#model-y">Model Y</a>
         </p>
         <p>
-          <a href="#">Model Y</a>
+          <a href="#model-three">Model 3</a>
         </p>
       </div>
 

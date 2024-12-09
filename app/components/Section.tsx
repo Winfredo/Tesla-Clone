@@ -5,6 +5,7 @@ interface SectionProps {
   image?: string;
   leftbtn: string;
   rightbtn?: string;
+  id?: string;
 }
 const Section: React.FC<SectionProps> = ({
   name,
@@ -12,9 +13,11 @@ const Section: React.FC<SectionProps> = ({
   image,
   leftbtn,
   rightbtn,
+  id
 }) => {
   return (
     <div
+    id={id}
       className="w-[100vw] h-[100vh] flex flex-col items-center justify-between bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: `url(/images/${image})`,
