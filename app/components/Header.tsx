@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { MdMenu } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
-
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -56,25 +55,70 @@ const Header = () => {
         </div>
         <ul>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">Existing Inventory</a>
+            <a href="" className="font-semibold">
+              Existing Inventory
+            </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">Used Inventory</a>
+            <a href="" className="font-semibold">
+              Used Inventory
+            </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">Trade-In</a>
+            <a href="" className="font-semibold">
+              Trade-In
+            </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">Cybertruck</a>
+            <a href="" className="font-semibold">
+              Cybertruck
+            </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">Roadster</a>
+            <a href="" className="font-semibold">
+              Roadster
+            </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">New Products</a>
+            <a href="" className="font-semibold">
+              New Products
+            </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">Updates</a>
+            <a href="" className="font-semibold">
+              Updates
+            </a>
+          </li>
+          <li className="py-[15px] border-b-2">
+            <a href="" className="font-semibold">
+              Test Drive
+            </a>
+          </li>
+          <li className="py-[15px] border-b-2">
+            <a href="" className="font-semibold">
+              {" "}
+              Charging Stations
+            </a>
+          </li>
+          <li className="py-[15px] border-b-2">
+            <a href="" className="font-semibold">
+              Tesla Insurance
+            </a>
+          </li>
+          <li className="py-[15px] border-b-2">
+            <a href="" className="font-semibold">
+              Financing Options
+            </a>
+          </li>
+          <li className="py-[15px] border-b-2">
+            <a href="" className="font-semibold">
+              Service Centre Locations
+            </a>
+          </li>
+          <li className="py-[15px] border-b-2">
+            <a href="" className="font-semibold">
+              Powerwall
+            </a>
           </li>
         </ul>
       </div>
