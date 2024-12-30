@@ -27,6 +27,9 @@ const Header = () => {
         <p>
           <a href="#model-three">Model 3</a>
         </p>
+        <p>
+          <a href="#accessories">Accessories</a>
+        </p>
       </div>
 
       <div className="flex items-center gap-10 uppercase cursor-pointer font-bold">
@@ -34,7 +37,7 @@ const Header = () => {
           <a href="#">Shop</a>
         </p>
         <p className="hidden md:block">
-          <a>Tesla Account</a>
+          <a href="#">Tesla Account</a>
         </p>
         <p>
           <MdMenu size={25} className="cursor-pointer" onClick={toggleMenu} />
@@ -42,7 +45,7 @@ const Header = () => {
       </div>
 
       <div
-        className={`fixed top-0 bottom-0 right-0 w-[300px] transform ease-in duration-200 list-none p-5 bg-white ${
+        className={`fixed top-0 bottom-0 right-0 w-[300px] z-10 transform ease-in duration-200 list-none p-5 bg-white ${
           showMenu ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -55,68 +58,67 @@ const Header = () => {
         </div>
         <ul>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">
+            <a href="#" className="font-semibold">
               Existing Inventory
             </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">
+            <a href="#" className="font-semibold">
               Used Inventory
             </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">
+            <a href="#" className="font-semibold">
               Trade-In
             </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">
+            <a href="#" className="font-semibold">
               Cybertruck
             </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">
+            <a href="#" className="font-semibold">
               Roadster
             </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">
+            <a href="#" className="font-semibold">
               New Products
             </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">
+            <a href="#" className="font-semibold">
               Updates
             </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">
+            <a href="#" className="font-semibold">
               Test Drive
             </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">
-              {" "}
+            <a href="#" className="font-semibold">
               Charging Stations
             </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">
+            <a href="#" className="font-semibold">
               Tesla Insurance
             </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">
+            <a href="#" className="font-semibold">
               Financing Options
             </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">
+            <a href="#" className="font-semibold">
               Service Centre Locations
             </a>
           </li>
           <li className="py-[15px] border-b-2">
-            <a href="" className="font-semibold">
+            <a href="#" className="font-semibold">
               Powerwall
             </a>
           </li>
