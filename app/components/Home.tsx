@@ -1,6 +1,7 @@
 import React from "react";
 import Section from "./Section";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -58,8 +59,9 @@ const Home = () => {
           id="accessories"
           leftbtn="Shop Now"
           image="accessories.jpg"
-        />
+        /> 
       </div>
+      <Footer />
     </div>
   );
 };
