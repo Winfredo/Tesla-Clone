@@ -15,7 +15,7 @@ const Header = () => {
         <Image src="images/logo.svg" alt="Tesla logo" width={100} height={40} />
       </div>
 
-      <div className="hidden lg:flex gap-7 ] uppercase font-bold">
+      <div className="hidden lg:flex gap-7 uppercase font-bold">
         <p>
           <a href="#model-s">Model S</a>
         </p>
