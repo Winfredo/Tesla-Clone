@@ -3,6 +3,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import Image from "next/image"
 
 const Footer = () => {
   return (
@@ -11,8 +12,10 @@ const Footer = () => {
         <div className="flex flex-1 flex-col ">
           <div className=" flex  w-full flex-col md:flex-row  items-center justify-evenly">
             <div className=" w-[320px] flex flex-col  items-center md:items-start justify-center md:mb-20 ">
-              <img
+              <Image
                 src="./images/logo.svg"
+                width={120}
+                height={40}
                 alt="logo"
                 className=" h-[40px] mt-5 md:mt-0 bg-white w-[120px]"
               />

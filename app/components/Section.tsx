@@ -1,5 +1,7 @@
 import React from "react";
-interface SectionProps {
+import Image from "next/image";
+
+type SectionProps = {
   name: string;
   description?: string;
   image?: string;
@@ -7,14 +9,14 @@ interface SectionProps {
   rightbtn?: string;
   id?: string;
 }
-const Section: React.FC<SectionProps> = ({
+const Section = ({
   name,
   description,
   image,
   leftbtn,
   rightbtn,
   id,
-}) => {
+}: SectionProps) => {
   return (
     <div>
       <div
@@ -39,9 +41,11 @@ const Section: React.FC<SectionProps> = ({
               </div>
             )}
           </div>
-          <img
+          <Image
             src="/images/down-arrow.svg"
+            alt="down arrow"
             width={40}
+            height={40}
             className="animate-animateDown overflow-hidden"
           />
         </div>

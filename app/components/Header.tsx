@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { MdMenu } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
+import Image from "next/image";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -11,10 +12,10 @@ const Header = () => {
   return (
     <div className="h-[5vh] w-[100vw] fixed flex items-center justify-between px-10">
       <div>
-        <img src="images/logo.svg" alt="Tesla logo" />
+        <Image src="images/logo.svg" alt="Tesla logo" width={100} height={40} />
       </div>
 
-      <div className="hidden md:flex gap-10 uppercase font-bold">
+      <div className="hidden lg:flex gap-7 uppercase font-bold">
         <p>
           <a href="#model-s">Model S</a>
         </p>
